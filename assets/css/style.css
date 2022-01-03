@@ -101,10 +101,15 @@ footer section a:nth-of-type(1):hover{
 
 footer section a:nth-of-type(1):hover{
 }
-/* Warum geht text-align nicht? */
-footer nav a{
+footer nav{
     text-align: right;
+    margin-right: 40px;
 }
+footer nav a{
+    padding-right: 20px;
+    color: white;
+}
+
 footer nav a:hover{
     color: darkgray;
 }
