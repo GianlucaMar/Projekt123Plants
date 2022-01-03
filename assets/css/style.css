@@ -35,6 +35,12 @@ section:nth-of-type(2){
 }
 section:nth-of-type(2) a{
     color: white;
+    border: 1px solid white;
+    padding: 10px 10px;
+}
+section:nth-of-type(2) a:hover{
+    background-color: white;
+    color: black;
 }
 
 li{
@@ -54,29 +60,36 @@ nav ul li a:hover{
 
 
 /* MAIN */
-section:nth-of-type(2) a:nth-of-type(1){
-    border: 1px solid white;
+main section:nth-of-type(2){
+    border: 3px double black;
     padding: 10px 25px;
+    margin: 50px auto;
 }
-section:nth-of-type(2) a:nth-of-type(1):hover{
+main section:nth-of-type(2) p{
+    margin: 25px 10px;
+}
+main section:nth-of-type(2) a{
+    color: black;
+}
+main section:nth-of-type(2) a:hover{
 background-color: white;
 color: black;
+
 }
 
 
-section article:nth-of-type(1){
+main section:nth-of-type(1){
     text-align: center;
     width: 300px auto;
-    margin: 100px 790px;
+    margin: 0px 790px;
 
 }
 
 
-/* abstand zum text+ untereinander schreiben? BR quick and dirty andere möglichkeit?? */
-section article:nth-of-type(1) a{
+main section:nth-of-type(1) {
     color: black;
-    border: 3px solid black;
-    border-style: double;
+    /* border: 3px solid black; */
+    /* border-style: double; */
     padding: 13px 30px;
 
 }
@@ -99,8 +112,6 @@ footer section a:nth-of-type(1):hover{
     color: black;
 }
 
-footer section a:nth-of-type(1):hover{
-}
 footer nav{
     text-align: right;
     margin-right: 40px;
